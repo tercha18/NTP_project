@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="10px"
+	android:background="#3D9970">
+	<TextView
+		android:text="Co chcesz zrobić?"
+		android:layout_width="350px"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:textAlignment="center"
+		android:textSize="16dp"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:id="@+id/textView1" />
+	
+		<Button
+			android:text="Edytuj trening"
+			android:layout_width="350px"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:background="@drawable/buttondesign"
+			android:id="@+id/editTraining" />
+		<Button
+			android:text="Trenuj"
+			android:layout_width="350px"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:background="@drawable/buttondesign"
+			android:id="@+id/doTraining" />
+</LinearLayout>

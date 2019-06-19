@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#3D9970" >
+	
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="20dp"
+		android:id="@+id/scrollView">
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent"
+			android:stretchColumns="1">
+			<TableRow>
+			<TextView
+				android:text="Stwórz trening"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/textView1"
+				android:padding="5dp"
+				android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+				android:textColor="@android:color/black"
+				android:textAlignment="center"/>
+			<TextView
+				android:text="Moje treningi"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/textView2"
+				android:padding="5dp"
+				android:textColor="@android:color/black"
+				android:textAlignment="center"/>
+				</TableRow>
+			<TableRow>
+			
+				<ImageButton
+			android:src="@drawable/panelPage"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxWidth="25px"
+			android:maxHeight="25px"
+			android:background="#3D9970"
+				android:padding="5dp"
+			android:id="@+id/imageButtonGuide" />
+			<ImageButton
+			android:src="@drawable/rys6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxWidth="25px"
+			android:maxHeight="25px"
+			android:background="#3D9970"
+				android:padding="5dp"
+			android:id="@+id/imageButtonTraining" />
+				</TableRow>
+
+			<TableRow>
+				<TextView
+				android:text="Wykonane treningi"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/textView3"
+				android:padding="5dp"
+				android:textColor="@android:color/black"
+				android:textAlignment="center"/>
+				<TextView
+				android:text="Baza ćwiczeń"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/textView4"
+				android:padding="5dp"
+				android:textColor="@android:color/black"
+				android:textAlignment="center"/>
+			
+				</TableRow>
+			<TableRow>
+				<ImageButton
+				android:src="@drawable/panelPageThree"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxWidth="25px"
+				android:maxHeight="25px"
+				android:background="#3D9970"
+				android:padding="5dp"
+				android:id="@+id/imageButtonTrainingDone" />
+				<ImageButton
+				android:src="@drawable/rys8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxWidth="25px"
+				android:maxHeight="25px"
+				android:background="#3D9970"
+				android:padding="5dp"
+				android:id="@+id/imageBaseExercise" />	
+				</TableRow>
+		</TableLayout>
+	</ScrollView>
+
+	
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#3D9970">
+		<TextView
+		android:text="Ćwiczenia do wyboru:"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:padding="10dp"
+		android:textColor="#000000"
+		android:id="@+id/textView1" />
+		<ListView
+			android:id="@+id/userTraining"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="26dp"
+			android:text="TextView" />
+	<Button
+		android:text="Rozpocznij trening"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/buttondesign"
+		android:id="@+id/startTraining" />
+	<Button
+		android:text="Zakoncz trening"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/buttondesign"	
+		android:id="@+id/endTraining" />
+</LinearLayout>
